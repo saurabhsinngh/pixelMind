@@ -1,15 +1,13 @@
 # git clone <repository-url>
-cd <repository-folder>
+cd repository-folder
 
 # Install Dependencies
 npm install
 
-# Set Up Environment Variables
+# Environment Variables
 .env file
-PORT=5000
-MONGO_URI=mongodb://localhost:27017/database-name
-
-# JWT Secret Key
+PORT = 3000
+MONGO_URI = mongodb://localhost:27017/database-name
 JWT_SECRET=jwt_secret_key
 
 # Start the Server
